@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<ImageView
+    android:id="@+id/profilepic"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginStart="30dp"
+    android:background="@drawable/ic_person_black_24dp"
+    />
+        <TextView
+            android:id="@+id/followers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/profilepic"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:text="Followers"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/following"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/followers"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:text="Following"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/following"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:text="Log out"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+          <TextView
+              android:id="@+id/nameofperson"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toEndOf="@+id/profilepic"
+              android:layout_below="@+id/followers"
+              android:layout_marginTop="30dp"
+              android:layout_marginStart="30dp"
+              android:text="Enter name"
+              android:textStyle="bold"
+              android:textColor="@android:color/black"
+             android:textSize="25sp"
+              />
+        <TextView
+            android:id="@+id/bio_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profilepic"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Bio"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/edit_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/bio_title"
+            android:layout_marginTop="30dp"
+            android:text="Edit Profile"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/newsfeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/edit_profile"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:text="Feed"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            />
+
+        <Button
+            android:id="@+id/trips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/newsfeed"
+            android:layout_below="@+id/edit_profile"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="190dp"
+            android:text="Trips"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nvg_view"
+        android:layout_width="match_parent"
+        app:itemBackground="@android:color/black"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu_navigation"
+        />
+
+</RelativeLayout>

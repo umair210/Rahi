@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_trip">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name_createtrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Enter NAME"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/inputs"
+        />
+    <TextView
+        android:id="@+id/createtrip_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_createtrip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Create trip"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+    <ImageView
+        android:id="@+id/addphotos_createtrip"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_photo_camera_black_24dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/createtrip_logo"
+        />
+
+    <EditText
+        android:id="@+id/itineray_createtrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter itineray"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHint="@android:color/black"
+        android:background="@drawable/inputs"
+        android:layout_below="@+id/addphotos_createtrip"
+        />
+    <EditText
+        android:id="@+id/adddays_createtrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter no. of days"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHint="@android:color/black"
+        android:background="@drawable/inputs"
+        android:layout_below="@+id/itineray_createtrip"
+        />
+    <EditText
+        android:id="@+id/location_createtrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Location"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColorHint="@android:color/black"
+        android:background="@drawable/inputs"
+        android:layout_below="@id/adddays_createtrip"
+        />
+    <Button
+        android:id="@+id/createnewtripbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearlayout_login"
+
+        android:layout_below="@+id/location_createtrip"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="Create Trip"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

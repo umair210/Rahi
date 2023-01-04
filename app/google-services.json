@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201984597031",
+    "firebase_url": "https://rahi-89d15.firebaseio.com",
+    "project_id": "rahi-89d15",
+    "storage_bucket": "rahi-89d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201984597031:android:5fdddb423e37a1f5b68202",
+        "android_client_info": {
+          "package_name": "com.example.rahipart2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201984597031-234m6v16f1omniu3j3nvdetmcnia1rj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rahipart2",
+            "certificate_hash": "564187082d62e49ba1e8beb8054a40f8f066018f"
+          }
+        },
+        {
+          "client_id": "201984597031-q2o56qgt9tdfkc0hs6m5st2293u40p55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd_a6Nicbwc-NrUzLMnFhq0REAFsEMqa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201984597031-q2o56qgt9tdfkc0hs6m5st2293u40p55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
